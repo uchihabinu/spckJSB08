@@ -1,6 +1,9 @@
 * {
     padding: 0;
     margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
 }
 .header{
     display: flex;
@@ -38,27 +41,31 @@
 }
 .member {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
     background-color:rgb(255,20,147);
 }
 
 .member-item {
-    margin: 40px;
+    width: 30%;
+}
 
+.member-item img{
+    width: 100%;
 }
 
 .footer {
     display: flex;
     color: white;
     background-color:rgb(219,112,147);
+    align-items: center;
+    padding: 20px;
 }
 .footer-item {
     color: white;
-    margin: 40px;
-    margin-left: auto;
-    margin-right: auto;
     font-size: 20px;
+    margin-right: 200px;
+    margin-left:300px ;
 }
 .logo{
     margin-top: 0;
@@ -74,7 +81,14 @@
 .text{
     font-size: 18px;
 }
-.footter-item-logo{
-    width: 200px;
-    height: 100px;
+.aboutus-container{
+    display: flex;
+}
+.footer-social{
+    margin-right: 100px;
+    margin-left: 100px; ;
+}
+.footer-item-logo{
+    margin-left:200px;
+    margin-right: 200px;
 }
