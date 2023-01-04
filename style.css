@@ -9,6 +9,11 @@
     display: flex;
    letter-spacing: white;
     background-color: pink;
+    position:fixed;
+    right: 0;
+    left: 0;
+
+
 }
 .header-item{
     padding: 12px;
@@ -37,6 +42,7 @@
     background-color:rgb(255,182,193);
 }
 .introduction-item{
+    padding-top: 100px;
     text-align: center;
 }
 .member {
@@ -48,8 +54,14 @@
 
 .member-item {
     width: 30%;
+    
 }
-
+.button-play{
+    font-size: 24px;
+    border-radius: 12px;
+    background-color: #ffbd03; /* Green */
+    color: white;
+}
 .member-item img{
     width: 100%;
 }
